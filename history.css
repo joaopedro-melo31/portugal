@@ -1,0 +1,187 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+
+  .logo img{ 
+    width: 130px;
+    height: 130px;
+}
+
+  header {
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+
+  h1, h2 {
+    color: #1f7400;
+  }
+
+  .imagem { 
+    text-align: center;
+    margin: 30px 0;
+  }
+
+  .imagem img {
+    width: 350px;
+    border-radius: 10px;
+  }
+
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+  .depoimentos {
+    background-color: #f8f8f8;
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .depoimentos h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .depoimento {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  }
+  
+  .depoimento .mensagem {
+    font-style: italic;
+    font-size: 16px;
+    color: #444;
+  }
+  
+  .depoimento .autor {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #000000;
+  }
+  hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+  }
+
+.redes-sociais {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    justify-content: right;
+}
+
+.redes-sociais li img {
+    width: 40px;
+    height: 30px;
+    object-fit: contain;
+    display: block;
+}
+
+.area-informativa {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    border-top: 2px solid #eee;
+}
+
+.area-informativa .coluna {
+    flex: 1;
+    min-width: 250px;
+}
+
+.area-informativa h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.area-informativa p,
+.area-informativa a {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    text-decoration: none;
+}
+
+.area-informativa ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.redes-sociais li img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    display: block;
+}
+
+.img-whatsapp {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    display: block;
+}
+
+.contato-whatsapp {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contato-whatsapp li a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.img-whatsapp {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    display: block;
+}
+
+.numero-whatsapp {
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.contato-whatsapp li a:hover .numero-whatsapp {
+    color: #25D366;
+}
+  

@@ -1,0 +1,169 @@
+body {
+    background: rgba(255, 255, 255, 0.62);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+    margin: 20px;
+}
+
+.viagem-europa-mapa {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.viagem-europa-mapa h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.conteudo-lado-a-lado {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.texto {
+    flex: 2;
+    min-width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+.imagem {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagem img {
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    justify-content: right;
+}
+
+.redes-sociais li img {
+    width: 40px;
+    height: 30px;
+    object-fit: contain;
+    display: block;
+}
+
+.area-informativa {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    border-top: 2px solid #eee;
+}
+
+.area-informativa .coluna {
+    flex: 1;
+    min-width: 250px;
+}
+
+.area-informativa h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.area-informativa p,
+.area-informativa a {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    text-decoration: none;
+}
+
+.area-informativa ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.redes-sociais li img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    display: block;
+}
+
+.img-whatsapp {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    display: block;
+}
+
+.contato-whatsapp {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contato-whatsapp li a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.img-whatsapp {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    display: block;
+}
+
+.numero-whatsapp {
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.contato-whatsapp li a:hover .numero-whatsapp {
+    color: #25D366;
+}
+  
