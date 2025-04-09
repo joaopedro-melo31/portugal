@@ -14,3 +14,10 @@ const linkInicio = document.getElementById('link-inicio');
       document.body.style.overflow = '';
     }, 800);
   });
+  const checkbox = document.getElementById('toggle-tema');
+  const textoTema = document.getElementById('texto-tema');
+
+  checkbox.addEventListener('change', () => {
+    document.body.classList.toggle('dark-mode');
+    textoTema.textContent = checkbox.checked ? 'Modo Claro' : 'Modo Escuro';
+  });
