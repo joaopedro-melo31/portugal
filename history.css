@@ -105,7 +105,6 @@ body {
     flex-wrap: wrap;
     gap: 40px;
     padding: 40px 20px;
-    background-color: #f9f9f9;
     border-top: 2px solid #eee;
 }
 
@@ -246,8 +245,35 @@ input:checked + .slider:before {
 
 /* Tema escuro */
 body.dark-mode {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+body.dark-mode h1{
+  color: #e0e0e0;
+}
+
+body .dark-mode .area-informativa {
   background-color: #121212;
   color: #e0e0e0;
+}
+
+body.dark-mode ul li .numero-whatsapp {
+  color: white;
+}
+
+body.dark-mode ul li .numero-whatsapp:hover {
+  color: rgb(95, 228, 69);
+}
+
+body.dark-mode a {
+  color: white;
+}
+body.dark-mode a:hover {
+  color: #5c5d5c;
+}
+
+body.dark-mode h3 {
+  color: white;
 }
 
 body.dark-mode a {
